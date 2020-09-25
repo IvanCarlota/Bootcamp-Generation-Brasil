@@ -1,0 +1,14 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "Exercício em TypeScript",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Júnior Carlota",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
