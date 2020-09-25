@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex6</title>
+</head>
+<body>
+    <script>
+    var salariobruto=parseFloat(prompt("Digite o seu salário Bruto: "));
+    var previdenciaSocial=((salariobruto/100)*10)
+    var salarioSemPrevidenciaSocial = salariobruto - previdenciaSocial
+    var impostos = ((salarioSemPrevidenciaSocial/100)*5)
+    var salarioLiquido = (salarioSemPrevidenciaSocial - impostos)
+    console.log("O seu salário Líquido é de "+salarioLiquido)
+
+    </script>
+</body>
+</html>

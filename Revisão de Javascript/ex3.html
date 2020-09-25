@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3</title>
+</head>
+<body>
+    <script>
+        var HT=parseFloat(prompt("Digite o número de horas trabalhadas no mês: ")); 
+        var VH=parseFloat(prompt("Digite o valor hora trabalhada: ")); 
+        var PD=parseFloat(prompt("Digite o percentual de desconto: "));
+        //Calcule o salário bruto  
+        var SB = (HT * VH);  
+        //Calcule o total de desconto
+        var TD = ((PD/100) * SB); 
+        //Calcule o salário líquido
+        var SL = (SB - TD); 
+        console.log("Horas trabalhadas: " + HT + "\nSalário Bruto: "+ SB + "\nDescontos: "+PD+ "\nSalário Líquido: "+SL)
+
+    </script>
+</body>
+</html>
