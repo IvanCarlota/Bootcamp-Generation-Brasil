@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EX11</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+        var anoNasc, anoAdmis, codigo, anoAtual, idade, tempoTrabalhado, resultado;
+
+		anoNasc=prompt("Informe o seu ano de nascimento: ");
+
+		anoAdmis=prompt("Informe  seu ano de admissão no trabalho: ");
+
+		codigo=prompt("Informe  seu código de funcionário: ");
+
+
+		anoAtual = 2020;
+		
+		idade = (anoAtual - anoNasc);
+
+		tempoTrabalhado = (anoAtual - anoAdmis);
+
+		if (idade >= 65){
+			
+				resultado="Você pode aposentar-se, pois tem 65 anos ou mais!";
+			
+			}
+			else{
+
+				if (tempoTrabalhado >= 30 ){
+			
+				resultado="Você pode aposentar-se, pois tem 30 ou mais anos de trabalho!";
+			
+				}
+					else{
+
+						if (idade >=60 && tempoTrabalhado >=25){
+			
+					resultado="Você pode aposentar-se, pois tem mais de 60 anos e 25 anos trabalhados!";
+			
+					}
+						else
+							{
+			
+								resultado="Você NÃO pode aposentar-se!";
+			
+							}
+						
+						}
+					
+					
+				
+				}
+			
+		
+			alert("\nO funcionário para aposentadoria é: " + resultado);
+
+
+</script>
+
+
+</body>

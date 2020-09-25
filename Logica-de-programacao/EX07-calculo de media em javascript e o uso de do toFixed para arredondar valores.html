@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EX7</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+
+ var nota1, nota2, nota3, media, nome, resultado;
+
+//entrada de dados
+
+ nome = prompt("Informe o seu nome: ");   
+ nota1 = parseFloat(prompt("Digite o valor da primeira nota: "));
+ nota2 = parseFloat(prompt("Digite o valor da segunda nota: "));
+ nota3 = parseFloat(prompt("Digite o valor da terceira nota: "));
+ 
+ //processamento
+
+ media = (nota1 + nota2 + nota3) / 3;
+ if(media >= 7){
+    alert(resultado="APROVADO");
+ }else{
+    alert(resultado="REPROVADO");
+ }
+
+// fim do processamento
+
+//saída
+
+ alert("A média de " + nome + " é : " + media.toFixed(2));
+ alert("A média aritmética de " + nome + " é " + media + " e ele foi " + resultado.toFixed(2));
+
+</script>
+
+
+</body>

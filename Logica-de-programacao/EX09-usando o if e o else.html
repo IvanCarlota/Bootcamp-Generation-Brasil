@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EX9</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+
+var nome, salario, novosalario, aumento;
+
+
+		nome=prompt("Por gentileza informe seu nome: ");
+
+		salario=parseFloat(prompt("Por gentileza informe qual é o valor de seu salario: "));
+
+		if(salario >= 5000 ){
+			
+			aumento = (salario * 0.05);
+			
+			}
+			else {
+				aumento = (salario * 0.10);
+			
+				}	
+
+		novosalario = salario + aumento;
+		 		
+		alert("\nO salário de "+ nome +" é R$" + salario + " e ele passou a receber R$" + novosalario + " com seu aumento.\n")
+
+</script>
+
+
+</body>
