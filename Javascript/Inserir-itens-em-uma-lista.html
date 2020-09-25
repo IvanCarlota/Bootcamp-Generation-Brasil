@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="grupo">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+    </ol>
+    <button id="adicionar" onclick="adicionar()" title="mensagem de instrução">Adicionar</button>
+    <button id="remover" onclick="remover()">Remover</button>
+
+    <script>
+        
+        var i=2
+        function adicionar(){
+            
+            var ul = document.getElementById("grupo");
+            var li = document.createElement("li"); ; //criação do novo elemento
+            li.className = "item";
+            i++
+
+            li.appendChild(document.createTextNode("Item " +i));
+            ul.appendChild(li);              
+
+        }
+
+        function remover(){
+            var ul = document.getElementById("grupo");
+            ul.innerHTML = "Lista removida";
+            ul.length = 0;
+            i=0;
+        }
+        
+    
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.maior palavra</title>
+</head>
+<body>
+    <script>
+
+        var texto = prompt("Por favor digite uma palavra ou texto: ");
+        var array1 = texto.split(" ");
+        var resultado=array1[0]
+
+        for(var i=1; i < array1.length; i++){
+            if(resultado.length < array1[0].length){
+                resultado = array1[0];
+            }
+            return resultado;
+        }
+        
+        alert(resultado);
+            
+    </script>
+</body>
+</html>

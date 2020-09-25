@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Converter Celsius em Fahrenheit</title>
+</head>
+
+<body>
+    <Script>
+
+        var valorCelsius = parseFloat(prompt("Informe o valor em graus Celsius: "));
+        converterGraus();
+        
+        function converterGraus() {
+            var valorFahrenheit = parseFloat((((valorCelsius * 9) + 160) / 5));
+            return valorFahrenheit;
+        }
+        var resultado=converterGraus();
+        alert(valorCelsius + "°graus Celsius em Fahrenheit são: " + resultado+"°F");
+
+
+    </Script>
+</body>
+
+</html>

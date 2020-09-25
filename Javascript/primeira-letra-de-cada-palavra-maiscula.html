@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformando a primeira letra de uma palavra em Maíuscula</title>
+</head>
+<body>
+    <script>
+
+        var texto = prompt("Por favor digite uma palavra ou texto: ");
+        var resultado=""
+        var array1 = texto.split(" ");
+
+        for(var i=0; i < array1.length; i++){
+
+            array1[i] = array1[i].replace(array1[i].slice(0,1),array1[i].slice(0,1).toUpperCase());
+
+            resultado = resultado + " " + array1[i]
+
+        }
+        alert(resultado)
+            
+    </script>
+</body>
+</html>

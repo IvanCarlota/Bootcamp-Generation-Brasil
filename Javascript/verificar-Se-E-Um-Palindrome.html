@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome</title>
+  </head>
+  <body>
+    2. Write a JavaScript function that checks whether a passed string is a palindrome or
+  not?
+  
+  ● A palindrome is a word, phrase, or sequence that reads the same backward
+  as forward, e.g., madam or nurses run.
+
+    <script>
+      
+        var palavra = prompt("Escreva uma palavra para verificar se ela é um palindrome: ");
+
+        var Texto = palavra.split("").reverse().join("");
+
+        if (Texto == palavra) {
+          alert("Essa palavra é um palindrome: " + palavra);
+        }else
+        alert("Esse numero não é um palindrome, pois " +
+        palavra +" e " +Texto +" não identicos.");
+      
+    </script>
+  </body>
+</html>

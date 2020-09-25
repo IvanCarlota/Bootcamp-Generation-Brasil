@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+}
+
+
+.vermelho{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+
+#caixa{
+    width: 40%;
+    margin: 0 auto;
+    border: solid red 1px;
+    
+}
+h1, h2{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Function dentro de Function</title>
+</head>
+<body>
+    <script>
+        
+        function funcao1(){
+            funcao2()
+            console.log("Executado função 1")
+        }
+
+        function funcao2(){
+            funcao3()
+            console.log("Executado função 2")
+        }
+        function funcao3(){
+            console.log("Executado função 3")
+        }
+        //invocando a função 1
+
+        funcao1()
+        
+    </script>
+</body>
+</html>

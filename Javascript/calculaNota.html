@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular média</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        try {
+            function notaFinal(n1, n2, n3, n4, n5) {
+
+                var media4 = (n1 + n2 + n3 + n4) / 4;
+                var media5 = (n1 + n2 + n3 + n4 + n5) / 5;
+
+                var notaFinal = [media4, media5];
+                return notaFinal;
+            }
+
+            var n1 = 8
+            var n2 = 5
+            var n3 = 10
+            var n4 = 8
+            var n5 = 3
+
+            var media4 = notaFinal(n1, n2, n3, n4)[0];
+            var media5 = notaFinal(n1, n2, n3, n4, n5)[1];
+
+            alert("Média com 4 notas " + media4);
+            alert("Média com 5 notas  " + media5);
+        } catch(erro){
+            alert(erro)
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

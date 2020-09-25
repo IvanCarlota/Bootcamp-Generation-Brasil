@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exmplo de Funtion</title>
+</head>
+<body>
+    <script>
+    
+    /*código sem uso de função.
+
+    var lado1=5
+    var lado2=3
+    var lado3=1
+
+    //Calulando a média dos lados
+
+    var s1=(lado1+lado2+lado3)/3
+
+    var lado4=3
+    var lado5=10
+    var lado6=7
+
+    //Calculando a méida dos lados
+
+    var s2=(lado4+lado5+lado6)/3
+
+    var lado7=13
+    var lado8=1
+    var lado9=6
+
+    //Calculando a méida dos lados
+
+    var s3=(lado7+lado8+lado9)/3
+
+    alert ("S1= "+s1)
+    alert ("S2= "+s2)
+    alert ("S3= "+s3) */
+
+    //código com uso de function
+
+    function calculaMedia(lado1, lado2, lado3){
+        var s=(lado1+lado2+lado3)/3
+        //alert (s);
+        return s
+    }
+
+    var a=parseInt(prompt("Digite um número: "));
+    var b=parseInt(prompt("Digite um número: "));
+    var c=parseInt(prompt("Digite um número: "));
+
+    var resultado=calculaMedia(a,b,c)
+    alert("O resultado é: "+resultado)
+
+
+
+    </script>
+</body>
+</html>

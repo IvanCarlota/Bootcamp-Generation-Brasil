@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maior palavra de uma frase</title>
+</head>
+
+<body>
+    6. Write a JavaScript function that accepts a string as a parameter and find the longest
+    word within the string.
+    Example string : 'Web Development Tutorial'
+
+    <script>
+
+        var palavra = prompt("Escreva uma frase: ");
+
+        var array1 = palavra.split(" ");
+
+        var maior = array1[0].length
+        
+
+        for (i = 1; i < array1.length; i++) {
+
+            if (maior < array1[i].length) {
+
+                maior = array1[i].length
+            }
+
+        }
+
+        alert(maior);
+
+    </script>
+</body>
+
+</html>
