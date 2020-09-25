@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Bootstrap - Básico -IV</title>
+</head>
+
+<body>
+    <h1>Bootstrap - Básico -IV</h1>
+    <br>
+    <h2>Leiaute</h2>
+    <br>
+    <h3>Contêineres</h3>
+    <p>
+        Os Contêineres são os elementos de leiaute mais básicos no Bootstrap e são usados para conter, preencher e (às
+        vezes) centralizar o conteúdo dentro deles.
+    </p>
+    <p>
+        Por padrão o Bootstrap estabelece os pontos de quebra (media query) para alguns tamanhos de tela/janela.
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    Extra small<br>
+                    <span class="font-weight-normal">&lt;576px</span>
+                </th>
+                <th>
+                    Small<br>
+                    <span class="font-weight-normal">≥576px</span>
+                </th>
+                <th>
+                    Medium<br>
+                    <span class="font-weight-normal">≥768px</span>
+                </th>
+                <th>
+                    Large<br>
+                    <span class="font-weight-normal">≥992px</span>
+                </th>
+                <th>
+                    Extra large<br>
+                    <span class="font-weight-normal">≥1200px</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>.container</code></td>
+                <td class="text-muted">100%</td>
+                <td>540px</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-sm</code></td>
+                <td class="text-muted">100%</td>
+                <td>540px</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-md</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-lg</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-xl</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-fluid</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    Exemplos:
+    <br><br>
+    <div class="container bg-primary text-center text-light p-2">.container</div>
+    <br>
+    <div class="container-sm bg-primary text-center text-light p-2">.container-sm</div>
+    <br>
+    <div class="container-md bg-primary text-center text-light p-2">.container-md</div>
+    <br>
+    <div class="container-lg bg-primary text-center text-light p-2">.container-lg</div>
+    <br>
+    <div class="container-xl bg-primary text-center text-light p-2">.container-xl</div>
+    <br>
+    <div class="container-fluid bg-primary text-center text-light p-2">.container-fluid</div>
+    <br>
+
+    <h3>Referências</h3>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Layout - Overview</a><br>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
