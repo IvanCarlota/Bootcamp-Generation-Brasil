@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+
+.btn {
+    position: relative;
+    background-color: blue;
+    border: 1px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Praia_de_Novo_Prado%2C_no_centro_de_Prado_-_BA.jpg");
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    box-align: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,aqua,pink);
+    
+    
+}
+
+i{
+    vertical-align: top;
+}
+
+
+
+
+
