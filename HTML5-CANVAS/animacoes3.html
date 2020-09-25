@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: alteraPosicao;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes alteraPosicao {
+            0%  {background-color: red; left: 0px; top:0px}
+            25% {background-color: yellow; left: 200px; top:0px}
+            50% {background-color: blue; left: 200px; top:200px}
+            75% {background-color: pink; left: 0px; top:200px}
+            100%  {background-color: black; left: 0px; top:0px}
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+
+    </div>
+
+</body>
+</html>

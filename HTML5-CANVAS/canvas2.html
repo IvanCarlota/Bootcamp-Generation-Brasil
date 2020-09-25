@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas{
+            border: 1px solid blabck; background-color: aquamarine;
+        }
+    </style>
+
+</head>
+<body>
+    <canvas width="300" height="300" id="quadro"></canvas>
+
+    <script>
+
+        var quadro =  document.getElementById("quadro");
+
+        if(quadro.getContext){
+            var ctx = quadro.getContext("2d")
+        }else{
+            alert("Não funciona nesse navegador.");
+        }
+
+        ctx.fillStyle="rgba(10,,255,250)"
+        ctx.fillRect(50,50,200,200)
+
+
+
+    </script>
+
+</body>
+</html>

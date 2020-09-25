@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        button:hover {
+            background-color: brown;
+        }
+        ul:first-line {
+            color: pink;
+        }
+        p:first-child i{
+            background-color: yellow;
+        }
+
+        p:nth-child(3){
+            background-color: red;
+        }
+
+        li:nth-child(3){
+            color:red;
+        }
+        li:nth-child(2){
+            color: aqua;
+        }
+        li:last-child{
+            color:blue
+        }
+        input[type = "password"] {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <button>Clique Aqui</button>
+    <ul id="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <br><br>
+    <div>
+        <p>
+            Lorem ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Quis cum dolores sapiente dolore itaque ullam ipsa eos libero deleniti accusamus culpa eligendi, eaque molestias sed praesentium temporibus voluptatem, minima esse?
+        </p>
+        <p>
+            Lorem ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Dignissimos maiores odit, quaerat nostrum sapiente fugiat quo explicabo nulla sed, beatae eligendi ipsam illum iure eveniet inventore numquam. Magni, debitis expedita.
+        </p>
+        <p>
+            Lorem ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Dignissimos maiores odit, quaerat nostrum sapiente fugiat quo explicabo nulla sed, beatae eligendi ipsam illum iure eveniet inventore numquam. Magni, debitis expedita.
+        </p>
+    </div>
+    <form action="">
+        <label for="">Nome</label>
+        <input type="text">
+        <br><br>
+        <label for="">PassWord</label>
+        <input type="password">
+        <br><br>
+        <label for="">Confirma Password</label>
+        <input type="password">
+        <br><br>
+        <button>Submeter</button>
+    </form>
+</body>
+</html>
