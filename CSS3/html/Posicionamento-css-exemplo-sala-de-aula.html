@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generation - Ex4</title>
+    <!-- Colocar um ícone na aba de título -->
+    <link rel="icon" href="assets/imagens/g.jpg">
+    <style>
+        
+        /*Organizar os seletores dos mais amplos para os mais especificos*/
+        
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            }
+        
+        header{
+            background-color: darkred;
+            width: 600px;
+            height: 100px;
+        }
+        nav{
+            background-color: dodgerblue;
+            width: 100%;
+            height: 80px;
+        }
+        main{
+            background-color: darkgray;
+            width: 600px;
+            height: 420px;         
+        }
+
+        article{
+            background-color: deeppink;
+            width: 400px;
+            height: 420px;
+            float: left;
+        }
+
+        section{
+            background-color: goldenrod;
+            width: 350px;
+            height: 200px;
+            margin-left: 25px;
+        }
+        aside{
+            background-color: indigo;
+            width: 200px;
+            height: 420px;
+            float: left;
+        }
+        footer{
+            background-color: darkturquoise;
+            width: 600px;
+            height: 100px;
+        }
+
+        #caixa {
+            width: 600px;
+            height: 700px;
+            margin: 0 auto;
+        }
+
+#sec1{
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    
+    <!-- Estruturas semânticas -->
+    <div id="caixa" >
+        <header>Header</header>
+        
+        <nav>Navegation</nav>
+        
+        <main>
+            
+            <article>
+                <section id="sec1"> Section dentro do article</section>
+                <section>Section dentro do article</section>
+            </article>
+            
+            <aside>Aside</aside>
+            
+        </main>
+        
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+aside{
+    background-color: aqua;
+    width: 400px;
+    height: 1500px;
+    float:left;
+}
+header{
+    background-color: rgb(44, 114, 79);
+    width: 800px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+main{
+    float: left;
+    width: 800px;
+    height: 1500px;
+}
+.sec-Conteudo{
+    background-color: blue;
+    width: 800px;
+    height: 150px;
+    margin-top: 20px;
+}
+.sec-Boxes{
+    background-color: green;
+    width: 340px;
+    height: 285px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+#article1{
+    margin-top: 20px;
+    width: 520px;
+}
+#caixa{
+    width: 1200px;
+    height: 1500px;
+    margin:0 auto;
+}

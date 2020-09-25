@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 100;
+    padding: 100;
+    }
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding: 50;
+}
+
+div{
+    
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+    border-radius: 50px;
+    border: red 6px solid;
+    padding: 20px;
+    background-color: darkorchid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+form{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+body{
+    
+    background-image: url(../imagens/Marvel12313.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

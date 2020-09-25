@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+header{
+    background-color: darkgray;
+    width: 1200px;
+    height: 185px;
+}
+nav{
+    background-color: white;
+    width: 1200px;
+    height: 70px;
+}
+main{
+    background-color: darkgoldenrod;
+    width: 1200px;
+    height: 1000px;    
+}
+
+aside{
+    background-color: yellowgreen;
+    width: 150px;
+    height: 1000px;
+    float: left;}
+
+article{
+    width: 900px;
+    height: 1000px;
+    float: left;
+
+}
+
+section{
+    background-color: goldenrod;
+    width: 450px;
+    height: 500px;
+    float: left;
+    
+}
+
+footer{
+    background-color: darkturquoise;
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+
+#caixa {
+    width: 1200px;
+    height: 1555px;
+    margin: 0 auto;
+}
+
+#sec1{background-color: darkgray;}
+#sec2{background-color: darkmagenta;}
+#sec3{background-color: darkgreen;}
+#sec4{background-color: darkorange;}
+
+
+#antes-do-footer1{
+    background-color: blue;
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+#antes-do-footer2{
+    background-color: pink;
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+

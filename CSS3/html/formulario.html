@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generation Form</title>
+    <link rel="stylesheet" href="../html/assets/css/estilo-formulario.css">
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Formulário</h1>
+       
+
+        <form action="#" method="GET">
+            <!-- <label for="">Nome: </label> -->
+            <input type="text" name="nome" maxlength="20" placeholder="Digite o seu nome: ">
+            <br><br>
+
+            <!-- <label for="">Idade: </label> -->
+            <input type="number" name="Idade" min="18" max="29" size="100" placeholder="Idade: ">
+            <br><br>
+
+            <!-- <label for="">Nascimento: </label> -->
+            <input type="date" name="Nascimento" size="80" placeholder="Digite sua data de nascimento: ">
+            <br><br>
+
+            <!-- <label for="">Observação: </label> -->
+            <textarea name="bbservacao" cols="15" rows="5" maxlength="250"
+                placeholder="Digite sua Oberservação: "></textarea>
+            <br><br>
+
+            <!-- <label for="">Selecione o seu estado: </label> -->
+            <select name="estados" placeholder="Selecione o seu estado: ">
+
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="MG">MG</option>
+                <option value="DF">DF</option>
+                <option value="GO">GO</option>
+                <option value="RS">RS</option>
+
+            </select>
+            <br><br>
+
+            <!-- <label for="">Digite sua senha: </label> -->
+            <input type="password" name="senha" maxlength="20" placeholder="Digite sua senha: ">
+            <br><br>
+
+            <input type="radio" name="teste" id="" value="F">
+            <label for="f">Feminino</label>
+            <br>
+            <input type="radio" name="teste" id="" value="M">
+            <label for="m">Masculino</label>
+            <br><br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Almoço</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Vale transporte</label>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
+            <br>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
