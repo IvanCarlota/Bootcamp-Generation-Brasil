@@ -1,0 +1,64 @@
+<div id="" id="fundoProduto">
+    <div class="container-fluid">
+
+        <div class="container mx-auto pb-5">
+            <h2 class="pt-5 pb-2 text-black d-flex justify-content-center">Produtos</h2>
+            <hr class="mx-auto col-9 col-md-4 col-lg-3 " />
+            <hr class="mx-auto col-9 col-md-4 col-lg-3" />
+            <hr class="mx-auto col-9 col-md-4 col-lg-3" />
+        </div>
+        <div class="parallax"> </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-4 my-5">
+                <div class="sidebar-categories">
+                    <div class="btn btn head" (click)="listarTodos()">CATEGORIAS</div>
+
+                    <ul class="main-categories list-unstyled">
+                        <ng-container *ngFor="let categoria of listaCategorias">
+                            <li class="main-nav-list " (click)="setarCategoriaNaUrl(categoria.idCategoria)"><a class="btn btn-outline-light">{{categoria.nomeCategoria}}</a></li>
+                        </ng-container>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-8 col-md-8 mt-5 ">
+
+
+                <!-- Start Best Seller -->
+                <section class="lattest-product-area pb-40 category-list ">
+
+                    <!-- single product -->
+                    <div class="row justify-content-around border-0 py-2 ">
+
+                        <div class="card my-2 text-center " style="width: 16rem; " *ngFor="let produto of listaProdutos ">
+
+                            <div class="card-body border-0 ">
+
+                                <img src="{{ produto.imagem }} " class="card-img-top imagens-card " alt="Imagem de um {{produto.nomeProduto}} " />
+
+                                <h5 class="card-title ">{{ produto.nomeProduto }}</h5>
+                            </div>
+
+                            <div class="card-body ">
+
+                                <small class="font-weight-bold ">{{produto.descricao}}</small>
+                                <p class="mt-2 ">R{{produto.preco | currency}}</p>
+
+                                <button [routerLink]="[ '/editar', produto.id] " class="btn btn-outline-info border-0 mb-2 " id="botao " (click)="adicionarAoCarrinho(produto)">Adicionar a box</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+</div>

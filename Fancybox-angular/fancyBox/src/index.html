@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fancybox</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/1nEtN3D.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <app-root></app-root>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        // Efeito do sobre-nós
+        AOS.init({
+            offset: 350,
+            duration: 1850,
+        });
+
+        //efeito do icone do FAQ 
+        $(document).ready(function() {
+
+            $(".collapse.show").each(function() {
+                $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+            });
+
+            $(".collapse").on('show.bs.collapse', function() {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+            }).on('hide.bs.collapse', function() {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    background-color: rgb(228, 108, 108);
+    padding: 0;
+    margin: 0;
+}
+
+.card-header {
+    width: 100%;
+}
+
+.faq {
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.btn {
+    height: 60px;
+}
+
+.card {
+    border: none;
+}
+
+.responsividadeMobile {
+    width: 100vw;
+}
+
+.responsividadeDesktop {
+    width: 20vw;
+}
+
+.bt {
+    color: rgb(228, 108, 108);
+    /* font-size: 18px; */
+}
+
+.fundoBranco {
+    background-color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.fundoVerde {
+    background-color: rgb(222, 244, 129);
+}
+
+@media(max-width: 767px) {
+    .responsividadeDesktop {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .responsividadeMobile {
+        display: none;
+    }
+    .responsividadeDesktop {
+        width: 60vw;
+    }
+}
+
+@media(min-width: 1024px) {
+    .responsividadeMobile {
+        display: none;
+    }
+    .responsividadeDesktop {
+        width: 45vw;
+    }
+    .tituloFAQ>h2 {
+        font-size: 40px;
+    }
+    .card-body {
+        font-size: 18px;
+    }
+    button,
+    i {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1440px) {
+    app-navbar {
+        font-size: 80px;
+    }
+    .responsividadeMobile {
+        display: none;
+    }
+    .responsividadeDesktop {
+        width: 50vw;
+    }
+    .tituloFAQ>h2 {
+        font-size: 42px;
+    }
+    .card-body {
+        font-size: 22px;
+    }
+    button,
+    i {
+        font-size: 24px;
+    }
+}
